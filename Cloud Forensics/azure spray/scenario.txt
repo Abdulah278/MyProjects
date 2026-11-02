@@ -1,1 +1,0 @@
-A mid-sized technology company called Compliant Secure, with 50 employees, has recently migrated to Microsoft 365. During a routine security review, the SOC team discovered suspicious authentication patterns.
