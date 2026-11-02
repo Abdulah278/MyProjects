@@ -1,6 +1,6 @@
 Investigation URL: https://cyberdefenders.org/blueteam-ctf-challenges/achievements/abdulah/azurespray/
 
-Cloud Forensics: Microsoft 365 Password Spray Investigation & Detection Engineering
+
 📋 Executive Summary & Incident Scenario
 A mid-sized technology company recently migrated its infrastructure to Microsoft 365, shortly after which identity logs began exhibiting a high volume of failed sign-ins. Tasked as the security investigator, my objective was to determine whether the tenant was under an active password spray attack, establish the scope of the campaign, identify any successfully breached accounts, and engineer an automated detection rule in Microsoft Sentinel to catch future occurrences.
 
