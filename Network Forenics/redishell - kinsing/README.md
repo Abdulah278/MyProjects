@@ -1,4 +1,4 @@
-Lab URL: https://github.com/redishell/kinsing-incident-analysis
+Lab URL: https://cyberdefenders.org/blueteam-ctf-challenges/achievements/abdulah/redishell-kinsing/
 
 Digital Forensics & Incident Analysis: "Redishell - Kinsing" Container Breakout & Infrastructure Compromise
 
