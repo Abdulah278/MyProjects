@@ -1,4 +1,4 @@
-Lab URL: https://github.com/mo4de1/Script2Scene
+Senario URL: [https://github.com/mo4de1/Script2Scene](https://cyberdefenders.org/blueteam-ctf-challenges/achievements/abdulah/reporeaper-water-curse/)
 
 Digital Forensics & Incident Analysis: "RepoReaper - Water Curse" Supply Chain Compromise
 
@@ -12,19 +12,16 @@ Threat Actor Profile (Water Curse): Water Curse is a tracked threat group known 
 
 MITRE ATT&CK Mapping: The incident maps across multiple tactics and techniques, including T1195.001 (Supply Chain Compromise) via the GitHub repository delivery, T1059.001 (Command and Scripting Interpreter) through PowerShell execution scripts (Clcw.ps1.ps1, mbam.ps1), T1548.002 (Bypass User Account Control) via ms-settings protocol hijacking triggered by ComputerDefaults.exe, T1053.005 (Scheduled Task) for persistence, T1490 (Inhibit System Recovery) via registry policy manipulation, T1055.012 (Process Hollowing) into RegAsm.exe, T1036.005 (Masquerading) under a fake NVIDIA directory structure, and T1567.002 (Web Service: Exfiltration to Cloud Storage) over the Telegram Bot API (api.telegram.org).   
 RepoReaper - Water Curse Report.pdf
-+ 2
 
 Attack Mechanics & Defense Evasion: The malware utilized low-profile execution tactics, dropping a password-protected 7-Zip archive (4359ce22-2f6d-43b8-b34d-063d74715562.7z) containing an Electron application framework (app.asar). It implemented anti-analysis checks (mbam.ps1) to test for Malwarebytes installations prior to executing AES-encrypted payloads (boot_f, kernel_f, thread_f). Furthermore, it modified system settings to set DisableSR and DisableConfig to 1 under SystemRestore policies to thwart recovery.
 
 Exfiltration Analysis: Outbound connections via the Windows Filtering Platform (Event ID 5156) revealed traffic originating from a masqueraded binary (NVIDIA CONTROL PANEL.EXE) running out of AppData\Local\Microsoft\Vault\UserRoamingTiles\NVIDIA Container directly to IP 149.154.167.220, which resolves to legitimate Telegram API infrastructure used for data exfiltration. Additional C2 node traffic linked to DigitalOcean infrastructure (161.35.18.98) was discovered via hollowed RegAsm.exe processes.   
 RepoReaper - Water Curse Report.pdf
-+ 1
 
 🛠️ Tools & Technologies Leveraged
 
 FTK Imager: Used for capturing and extracting file system artifacts, disk images, and customized directory structures from the target environment.   
 RepoReaper - Water Curse Report.pdf
-+ 1
 
 DB Browser for SQLite: Utilized to analyze Microsoft Edge browser history databases and recover download referrer URLs from SQLite storage.
 
