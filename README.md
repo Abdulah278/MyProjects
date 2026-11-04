@@ -1,2 +1,0 @@
-# cybersecurity-portfolios
-cybersecurity projecs
