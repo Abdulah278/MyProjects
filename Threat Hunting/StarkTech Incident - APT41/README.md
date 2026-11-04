@@ -20,8 +20,9 @@ Internal Server & Domain Controller: FILES-SERVER (10.10.5.245), DC01 (10.10.5.1
 Associated Malware & Binaries: iexploreplugin.exe, ws2_32.exe, system_module.exe, testc.exe, python311.dll  
 Staged Exfiltration Archive: teams-skartech.zip  
 
-⚒️ Tools & Technologies LeveragedSplunk SIEM: Utilized for aggregating, correlating, and querying telemetry across Sysmon EventCodes (EventCode 1, 3, 10, 11, 22), Windows 
+⚒️ Tools & Technologies Leveraged
 
+Splunk SIEM: Utilized for aggregating, correlating, and querying telemetry across Sysmon EventCodes (EventCode 1, 3, 10, 11, 22), Windows 
 Security Event logs (EventCodes 4697, 4624), and Suricata NIDS event logs.
 SharpHound / BloodHound: Deployed by APT41 to map Active Directory object graphs and trust relationships, exporting telemetry data into C:\Users\Public.
 RClone & Certutil: Abused by the threat actor to execute cloud data exfiltration (rclone copy) and fetch remote payloads/scripts (certutil -urlcache).
