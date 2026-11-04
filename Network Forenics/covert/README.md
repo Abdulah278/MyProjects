@@ -13,6 +13,7 @@ MITRE ATT&CK Mapping: Active Scanning (T1595) via sequential port and wordlist p
 Framework & Tooling Context: The C2 infrastructure relies on TrevorC2, an open-source covert command and control framework published by TrustedSec that clones existing websites and conceals AES-CBC encrypted commands (derived via SHA-256 using the hard-coded passphrase Tr3v0rC2R0x@nd1s@w350m3#TrevorForget) inside HTML comments (such as oldcss=). 
 
 Impacted System Assets & Network Indicators:
+
 Compromised Workstation: 192.168.1.11 (MSEDGEWIN10)  
 C2 Server & Recon Hosts: 192.168.1.30 (C2), 192.168.1.29 & 192.168.1.37 (Scanners/Discovery) 
 DNS Exfiltration Domain: fakec2server.domain 
