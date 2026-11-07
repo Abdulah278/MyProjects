@@ -1,4 +1,4 @@
-Senario URL: https://cyberdefenders.org/blueteam-ctf-challenges/achievements/abdulah/reporeaper-water-curse/
+Senario URL: https://cyberdefenders.org/blueteam-ctf-challenges/reporeaper-water-curse/
 
 Digital Forensics & Incident Analysis: "RepoReaper - Water Curse" Supply Chain Compromise
 
