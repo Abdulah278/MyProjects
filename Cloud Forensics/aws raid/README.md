@@ -1,4 +1,4 @@
-Investigation URL: https://cyberdefenders.org/blueteam-ctf-challenges/achievements/abdulah/awsraid/
+Investigation URL: https://cyberdefenders.org/blueteam-ctf-challenges/awsraid/
 
 Cloud Infrastructure Incident Analysis: "AWS Raid" S3 Exfiltration & IAM Compromise
 
