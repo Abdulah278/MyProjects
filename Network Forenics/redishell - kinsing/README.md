@@ -1,4 +1,4 @@
-Lab URL: https://cyberdefenders.org/blueteam-ctf-challenges/achievements/abdulah/redishell-kinsing/
+Lab URL: https://cyberdefenders.org/blueteam-ctf-challenges/redishell-kinsing/
 
 Digital Forensics & Incident Analysis: "Redishell - Kinsing" Container Breakout & Infrastructure Compromise
 
